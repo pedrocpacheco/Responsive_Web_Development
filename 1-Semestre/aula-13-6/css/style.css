@@ -1,3 +1,11 @@
-body{
+#pagina1{
     background-color: red;
+}
+
+#pagina2{
+    background-color: blue;
+}
+
+#pagina3{
+    background-color: blueviolet;
 }
