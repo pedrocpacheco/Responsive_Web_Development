@@ -5,3 +5,11 @@
 #disc{
     list-style-type: disc; 
 }
+
+#square{
+    list-style-type: square;
+}
+
+#none{
+    list-style-type: none;
+}
