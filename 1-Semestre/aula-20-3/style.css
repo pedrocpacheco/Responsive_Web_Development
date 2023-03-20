@@ -17,8 +17,11 @@
 .menu{
     list-style-type: none;
     border: 1px solid black;
+    width: 150px;
+    padding: 0px;
 }
 
 .menu li{
     border-bottom: 1px solid black;
+    height: 25px;
 }
