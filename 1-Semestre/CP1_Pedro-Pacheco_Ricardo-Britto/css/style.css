@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 100px;
+}
+
+.navegacao{
+    display: flex;
+}
+
+.navegacao ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.navegacao ul li{
+    display: flex;
+}
+
+/* BODY */
+
+main{
+    background-image: url("../img/petfundo.jpg");
+    height: fit-content;
+}
+
+.titulo-secao{
+    margin-top: 20px;
+}
+
+#pagina_principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#img-principal{
+    padding: 20px;
+    width: 500px;
+    align-items: center;
+}
+
+
+.secao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-item{
+    margin-top: 25px;
+    align-items: center;
+}
+
+.imagem-item{
+    height: 500px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/petfundo.jpg");
+}
+
+footer h2{
+    margin-top: 20px;
+}
+
+#footer-principal{
+    height: 100vh;
+}
