@@ -1,0 +1,16 @@
+#wrapper{
+    width: 1100px;
+    height: 3300px;
+}
+header{
+    height: 180px;
+    background-color: chartreuse;
+}
+#login{
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    line-height: 30px;
+
+}
+
