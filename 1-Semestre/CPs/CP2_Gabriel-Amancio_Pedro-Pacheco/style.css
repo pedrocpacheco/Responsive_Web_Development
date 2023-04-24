@@ -16,6 +16,10 @@ h2{
     margin-bottom: 10px;    
 }
 
+.nomeAluno{
+    margin-bottom: 10px;
+}
+
 .tabela{
     display: flex;
     flex-direction: row;
