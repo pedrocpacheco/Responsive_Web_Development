@@ -33,9 +33,7 @@ h1{
 }
 
 .numero{
-    justify-content: left;
-    align-self: left;
-
+    width: 170px;
 }
 
 .sigla{
