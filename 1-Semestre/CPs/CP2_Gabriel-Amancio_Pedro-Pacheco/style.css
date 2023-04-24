@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    justify-content: center;
+    color: white;
+    border-bottom: 20px;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: row;
+}
+
+.linhaItens{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    border-radius: 10px;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 1px white solid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numero{
+    justify-content: left;
+    align-self: left;
+
+}
+
+.sigla{
+    font-size: 100px;
+    
+}
+
+.blank{
+    border: 1px black solid;
+}
+
+.blank p{
+    color: black;
+}
+
+.blank h3{
+    color: black;
+}
+
+.blank h4{
+    color: black;
+}
