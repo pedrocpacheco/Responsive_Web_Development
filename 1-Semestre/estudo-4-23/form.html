@@ -35,13 +35,39 @@
       <div>
         <!--Every Checkbox has it's label and input-->
         <label for="idCheckbox1">Check 1</label>
-        <input type="checkbox" id="idCheckbox1" name="idCheckbox1" />
+        <input type="checkbox" id="idCheckbox1" name="idCheckbox" value="Check1" />
 
         <label for="idCheckbox2">Check 2</label>
-        <input type="checkbox" id="idCheckbox2" name="idCheckbox2" />
+        <input type="checkbox" id="idCheckbox2" name="idCheckbox" value="Check2" />
 
         <label for="idCheckbox3">Check 3</label>
-        <input type="checkbox" id="idCheckbox3" name="idCheckbox3" />
+        <input type="checkbox" id="idCheckbox3" name="idCheckbox" value="Check3" />
+        <!--The name attribute is like a big familly (remeber the HTTP Request)-->
+      </div>
+
+      <!--Radio Input-->
+      <div>
+        <label for="idRadio1">Radio 1</label>
+        <input type="radio" id="idRadio1" name="idRadio" value="Radio 1" />
+
+        <label for="idRadio2">Radio 2</label>
+        <input type="radio" id="idRadio2" name="idRadio" value="Radio 2" />
+        <!--Radios don't have multiple value-->
+      </div>
+
+      <!--Select-->
+      <div>
+        <select name="selection">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="java">Java</option>
+        </select>
+      </div>
+
+      <!--Text Area-->
+      <div>
+        <label for="textArea">Text Area:</label><br />
+        <textarea id="idTextArea" name="idTextArea" row="5" cols="50"></textarea>
       </div>
     </form>
   </body>
