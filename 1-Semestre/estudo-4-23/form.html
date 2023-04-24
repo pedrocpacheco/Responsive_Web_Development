@@ -1,6 +1,7 @@
 <html>
   <body>
-    <form>
+    <!--Action: Calls the new Url | Method: Define HTTP Method-->
+    <form action="api/afterForm" method="post">
       <!--Text Input-->
       <div>
         <label for="idText">Texto:</label>
@@ -69,6 +70,9 @@
         <label for="textArea">Text Area:</label><br />
         <textarea id="idTextArea" name="idTextArea" row="5" cols="50"></textarea>
       </div>
+
+      <!--Submit Input-->
+      <input type="submit" value="Submit Form" />
     </form>
   </body>
 </html>
