@@ -9,16 +9,23 @@ h1{
     justify-content: center;
     color: white;
     border-bottom: 20px;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 10px;    
 }
 
 .tabela{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .linhaItens{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .item{
@@ -54,5 +61,633 @@ h1{
 }
 
 .blank h4{
+    color: black;
+}
+
+/* FAMILIA 1*/
+#familia1 .item{
+    border: 1px white solid;
+}
+
+#familia1 .sigla{
+    color: white;
+}
+
+#familia1 .nome{
+    color: white;
+}
+
+#familia1 p{
+    color: white;
+}
+
+#familia1 .blank{
+    border: 1px black solid;
+}
+
+#familia1 .blank h3{
+    color: black;
+}
+
+#familia1 .blank h4{
+    color: black;
+}
+
+#familia1 .blank p{
+    color: black;
+}
+
+/* FAMILIA 2 */
+#familia2 .item{
+    border: 1px purple solid;
+}
+
+#familia2 .sigla{
+    color: purple;
+}
+
+#familia2 .nome{
+    color: purple;
+}
+
+#familia2 p{
+    color: purple;
+}
+
+#familia2 .blank{
+    border: 1px black solid;
+}
+
+#familia2 .blank h3{
+    color: black;
+}
+
+#familia2 .blank h4{
+    color: black;
+}
+
+#familia2 .blank p{
+    color: black;
+}
+
+/* FAMILIA 3 */
+#familia3 .item{
+    border: 1px crimson solid;
+}
+
+#familia3 .sigla{
+    color: crimson;
+}
+
+#familia3 .nome{
+    color: crimson;
+}
+
+#familia3 p{
+    color: crimson;
+}
+
+#familia3 .blank{
+    border: 1px black solid;
+}
+
+#familia3 .blank h3{
+    color: black;
+}
+
+#familia3 .blank h4{
+    color: black;
+}
+
+#familia3 .blank p{
+    color: black;
+}
+
+
+/* FAMILIA 4 */
+#familia4 .item{
+    border: 1px orange solid;
+}
+
+#familia4 .sigla{
+    color: orange;
+}
+
+#familia4 .nome{
+    color: orange;
+}
+
+#familia4 p{
+    color: orange;
+}
+
+#familia4 .blank{
+    border: 1px black solid;
+}
+
+#familia4 .blank h3{
+    color: black;
+}
+
+#familia4 .blank h4{
+    color: black;
+}
+
+#familia4 .blank p{
+    color: black;
+}
+
+/* FAMILIA 5*/
+#familia5 .item{
+    border: 1px yellow solid;
+}
+
+#familia5 .sigla{
+    color: yellow;
+}
+
+#familia5 .nome{
+    color: yellow;
+}
+
+#familia5 p{
+    color: yellow;
+}
+
+#familia5 .blank{
+    border: 1px black solid;
+}
+
+#familia5 .blank h3{
+    color: black;
+}
+
+#familia5 .blank h4{
+    color: black;
+}
+
+#familia5 .blank p{
+    color: black;
+}
+
+/* FAMILIA 6*/
+#familia6 .item{
+    border: 1px green solid;
+}
+
+#familia6 .sigla{
+    color: green;
+}
+
+#familia6 .nome{
+    color: green;
+}
+
+#familia6 p{
+    color: green;
+}
+
+#familia6 .blank{
+    border: 1px black solid;
+}
+
+#familia6 .blank h3{
+    color: black;
+}
+
+#familia6 .blank h4{
+    color: black;
+}
+
+#familia6 .blank p{
+    color: black;
+}
+
+/* FAMILIA 7*/
+#familia7 .item{
+    border: 1px royalblue solid;
+}
+
+#familia7 .sigla{
+    color: royalblue;
+}
+
+#familia7 .nome{
+    color: royalblue;
+}
+
+#familia7 p{
+    color: royalblue;
+}
+
+#familia7 .blank{
+    border: 1px black solid;
+}
+
+#familia7 .blank h3{
+    color: black;
+}
+
+#familia7 .blank h4{
+    color: black;
+}
+
+#familia7 .blank p{
+    color: black;
+}
+
+/* FAMILIA 8*/
+#familia8 .item{
+    border: 1px lightpink solid;
+}
+
+#familia8 .sigla{
+    color: lightpink;
+}
+
+#familia8 .nome{
+    color: lightpink;
+}
+
+#familia8 p{
+    color: lightpink;
+}
+
+#familia8 .blank{
+    border: 1px black solid;
+}
+
+#familia8 .blank h3{
+    color: black;
+}
+
+#familia8 .blank h4{
+    color: black;
+}
+
+#familia8 .blank p{
+    color: black;
+}
+
+/* FAMILIA 9*/
+#familia9 .item{
+    border: 1px indianred solid;
+}
+
+#familia9 .sigla{
+    color: indianred;
+}
+
+#familia9 .nome{
+    color: indianred;
+}
+
+#familia9 p{
+    color: indianred;
+}
+
+#familia9 .blank{
+    border: 1px black solid;
+}
+
+#familia9 .blank h3{
+    color: black;
+}
+
+#familia9 .blank h4{
+    color: black;
+}
+
+#familia9 .blank p{
+    color: black;
+}
+
+/* FAMILIA 10*/
+#familia10 .item{
+    border: 1px gold solid;
+}
+
+#familia10 .sigla{
+    color: gold;
+}
+
+#familia10 .nome{
+    color: gold;
+}
+
+#familia10 p{
+    color: gold;
+}
+
+#familia10 .blank{
+    border: 1px black solid;
+}
+
+#familia10 .blank h3{
+    color: black;
+}
+
+#familia10 .blank h4{
+    color: black;
+}
+
+#familia10 .blank p{
+    color: black;
+}
+
+/* FAMILIA 10*/
+#familia10 .item{
+    border: 1px mediumslateblue solid;
+}
+
+#familia10 .sigla{
+    color: mediumslateblue;
+}
+
+#familia10 .nome{
+    color: mediumslateblue;
+}
+
+#familia10 p{
+    color: mediumslateblue;
+}
+
+#familia10 .blank{
+    border: 1px black solid;
+}
+
+#familia10 .blank h3{
+    color: black;
+}
+
+#familia10 .blank h4{
+    color: black;
+}
+
+#familia10 .blank p{
+    color: black;
+}
+
+/* FAMILIA 11*/
+#familia11 .item{
+    border: 1px gray solid;
+}
+
+#familia11 .sigla{
+    color: gray;
+}
+
+#familia11 .nome{
+    color: gray;
+}
+
+#familia11 p{
+    color: gray;
+}
+
+#familia11 .blank{
+    border: 1px black solid;
+}
+
+#familia11 .blank h3{
+    color: black;
+}
+
+#familia11 .blank h4{
+    color: black;
+}
+
+#familia11 .blank p{
+    color: black;
+}
+
+/* FAMILIA 12*/
+#familia12 .item{
+    border: 1px paleturquoise solid;
+}
+
+#familia12 .sigla{
+    color: paleturquoise;
+}
+
+#familia12 .nome{
+    color: paleturquoise;
+}
+
+#familia12 p{
+    color: paleturquoise;
+}
+
+#familia12 .blank{
+    border: 1px black solid;
+}
+
+#familia12 .blank h3{
+    color: black;
+}
+
+#familia12 .blank h4{
+    color: black;
+}
+
+#familia12 .blank p{
+    color: black;
+}
+
+/* FAMILIA 13*/
+#familia13 .item{
+    border: 1px lawngreen solid;
+}
+
+#familia13 .sigla{
+    color: lawngreen;
+}
+
+#familia13 .nome{
+    color: lawngreen;
+}
+
+#familia13 p{
+    color: lawngreen;
+}
+
+#familia13 .blank{
+    border: 1px black solid;
+}
+
+#familia13 .blank h3{
+    color: black;
+}
+
+#familia13 .blank h4{
+    color: black;
+}
+
+#familia13 .blank p{
+    color: black;
+}
+
+/* FAMILIA 14*/
+#familia14 .item{
+    border: 1px khaki solid;
+}
+
+#familia14 .sigla{
+    color: khaki;
+}
+
+#familia14 .nome{
+    color: khaki;
+}
+
+#familia14 p{
+    color: khaki;
+}
+
+#familia14 .blank{
+    border: 1px black solid;
+}
+
+#familia14 .blank h3{
+    color: black;
+}
+
+#familia14 .blank h4{
+    color: black;
+}
+
+#familia14 .blank p{
+    color: black;
+}
+
+/* FAMILIA 15*/
+#familia15 .item{
+    border: 1px plum solid;
+}
+
+#familia15 .sigla{
+    color: plum;
+}
+
+#familia15 .nome{
+    color: plum;
+}
+
+#familia15 p{
+    color: plum;
+}
+
+#familia15 .blank{
+    border: 1px black solid;
+}
+
+#familia15 .blank h3{
+    color: black;
+}
+
+#familia15 .blank h4{
+    color: black;
+}
+
+#familia15 .blank p{
+    color: black;
+}
+
+/* FAMILIA 16*/
+#familia16 .item{
+    border: 1px tomato solid;
+}
+
+#familia16 .sigla{
+    color: tomato;
+}
+
+#familia16 .nome{
+    color: tomato;
+}
+
+#familia16 p{
+    color: tomato;
+}
+
+#familia16 .blank{
+    border: 1px black solid;
+}
+
+#familia16 .blank h3{
+    color: black;
+}
+
+#familia16 .blank h4{
+    color: black;
+}
+
+#familia16 .blank p{
+    color: black;
+}
+
+/* FAMILIA 17*/
+#familia17 .item{
+    border: 1px hotpink solid;
+}
+
+#familia17 .sigla{
+    color: hotpink;
+}
+
+#familia17 .nome{
+    color: hotpink;
+}
+
+#familia17 p{
+    color: hotpink;
+}
+
+#familia17 .blank{
+    border: 1px black solid;
+}
+
+#familia17 .blank h3{
+    color: black;
+}
+
+#familia17 .blank h4{
+    color: black;
+}
+
+#familia17 .blank p{
+    color: black;
+}
+
+/* FAMILIA 18*/
+#familia18 .item{
+    border: 1px cornflowerblue solid;
+}
+
+#familia18 .sigla{
+    color: cornflowerblue;
+}
+
+#familia18 .nome{
+    color: cornflowerblue;
+}
+
+#familia18 p{
+    color: cornflowerblue;
+}
+
+#familia18 .blank{
+    border: 1px black solid;
+}
+
+#familia18 .blank h3{
+    color: black;
+}
+
+#familia18 .blank h4{
+    color: black;
+}
+
+#familia18 .blank p{
     color: black;
 }
